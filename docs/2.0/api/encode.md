@@ -7,7 +7,7 @@ title: Encode
 
 ## Quality `q`
 
-Defines the quality of the image. Use values between `0` and `100`. Defaults to `90`. Only relevant if the format is set to `jpg` or `pjpg`.
+Defines the quality of the image. Use values between `0` and `100`. Defaults to `90`. Only relevant if the format is set to `jpg`, `pjpg`, `webp` or `avif`.
 
 ~~~ html
 <img src="kayaks.jpg?w=500&q=25">
@@ -18,7 +18,7 @@ Defines the quality of the image. Use values between `0` and `100`. Defaults to 
 
 ## Format `fm`
 
-Encodes the image to a specific format. Accepts `jpg`, `pjpg` (progressive jpeg), `png`, `gif` or `webp`. Defaults to `jpg`.
+Encodes the image to a specific format. Accepts `jpg`, `pjpg` (progressive jpeg), `png`, `gif`, `webp` or `avif`. Defaults to `jpg`.
 
 ~~~ html
 <img src="kayaks.jpg?w=500&fm=gif">
